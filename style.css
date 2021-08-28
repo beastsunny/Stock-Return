@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 :root {
-    --primary-color: #1b82e3;
+    --primary-color: #1609d4;
 }
 
 body {
@@ -26,4 +26,27 @@ input {
 
 ::placeholder {
     text-align: center;
+}
+
+#check-btn {
+    padding: 0.8em;
+    margin: 1em;
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0.2em;
+}
+
+#check-btn:hover {
+    background-color: #1272cc;
+    cursor: pointer;
+}
+
+#message {
+    margin: 1em;
+    font-size: larger;
+}
+
+.list-item-inline {
+    display: inline-block;
 }

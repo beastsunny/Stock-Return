@@ -27,3 +27,22 @@ function showMessage(msg) {
     message.innerText = msg;
     message.style.color = "#f50a16";
 }
+
+function errorHandler() {
+    let p = purchasePrice.value;
+    let s = stockQuantity.value;
+    let c = currentPrice.value;
+    let msg = "Please fill out all Fields!!"
+    if (p === '') {
+        showMessage(msg);
+    }
+    if (s === '') {
+        showMessage(msg);
+    }
+    if (c === '') {
+        showMessage(msg);
+    }
+    if (p < 0 || s < 0 || c < 0) {
+        showMessage("Please enter a valid number!!");
+    }
+}
