@@ -19,11 +19,11 @@ function calculateProftAndLoss(purchase, quantity, current) {
         showMessage("Neither profit nor loss!");
     }
     errorHandler()
+}
 
 
 
-
-    function showMessage(msg) {
-        message.innerText = msg;
-        message.style.color = "#f50a16";
-    }
+function showMessage(msg) {
+    message.innerText = msg;
+    message.style.color = "#f50a16";
+}
