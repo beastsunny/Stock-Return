@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url(@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap'));
 :root {
     --primary-color: #1609d4;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Azeret Mono', monospace, sans-serif;
 }
 
 .container {
-    margin: 1em;
+    margin: 1.2em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,7 +18,7 @@ body {
 }
 
 input {
-    margin: 1em;
+    margin: 1.2em;
     padding: 0.5em;
     font-size: 0.8em;
     width: 160px;
@@ -48,5 +48,26 @@ input {
 }
 
 .list-item-inline {
-    display: inline-block;
+    display: inline;
+    margin-right: 2rem;
+}
+
+.footer {
+    background-color: var(--primary-blue);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.footer i {
+    color: var(--primary-color);
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.footer i:hover {
+    color: #1272cc;
 }

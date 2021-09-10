@@ -46,3 +46,12 @@ function errorHandler() {
         showMessage("Please enter a valid number!!");
     }
 }
+
+function clickHandler() {
+    pp = Number(purchasePrice.value);
+    squant = Number(stockQuantity.value);
+    curr = Number(currentPrice.value);
+    calculateProftAndLoss(pp, squant, curr);
+}
+
+checkButton.addEventListener("click", clickHandler);
