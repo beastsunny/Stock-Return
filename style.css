@@ -71,3 +71,9 @@ input {
 .footer i:hover {
     color: #1272cc;
 }
+
+#sig {
+    font-size: x-large;
+    font-style: oblique;
+    color: white;
+}
